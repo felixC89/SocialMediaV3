@@ -8,6 +8,6 @@ namespace SocialMediaV3.Core.Interfaces
 {
     public interface IPostRepository
     {
-        Task<IEnumerable<Post>> GetPosts();
+        Task<IEnumerable<Publicacion>> GetPosts();
     }
 }

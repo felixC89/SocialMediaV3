@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SocialMediaV3.Core.Interfaces;
-using SocialMediaV3.InfraStructure.Repositories;
 using System.Threading.Tasks;
 
 namespace SocialMediaV3.Api.Controllers

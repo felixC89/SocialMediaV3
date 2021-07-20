@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SocialMediaV3.Core.Interfaces;
+using SocialMediaV3.InfraStructure.Data;
 using SocialMediaV3.InfraStructure.Repositories;
 
 namespace SocialMediaV3.Api
@@ -22,8 +24,12 @@ namespace SocialMediaV3.Api
         {
             services.AddControllers();
 
+            #region Inyeccion de dependencia de la cadena de conexion al contexto de la base de datos
+            services.AddDbContext<SocialMediadbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SocialMedia")));
+            #endregion
+
             #region Inyeccion de dependencias Post Controller
-            services.AddTransient<IPostRepository, PostMongoRepository>();
+            services.AddTransient<IPostRepository, PostRepository>();
             #endregion
         }
 

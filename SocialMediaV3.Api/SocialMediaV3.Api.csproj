@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SocialMediaV3.Core\SocialMediaV3.Core.csproj" />
     <ProjectReference Include="..\SocialMediaV3.InfraStructure\SocialMediaV3.InfraStructure.csproj" />
   </ItemGroup>

@@ -10,3 +10,6 @@ C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMedi
 C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.csproj.CopyComplete
 C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.dll
 C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.pdb
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\bin\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.runtimeconfig.json
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\bin\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.runtimeconfig.dev.json
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.genruntimeconfig.cache

@@ -23,5 +23,10 @@ namespace SocialMediaV3.InfraStructure.Repositories
 
             return posts;
         }
+
+        Task<IEnumerable<Publicacion>> IPostRepository.GetPosts()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
