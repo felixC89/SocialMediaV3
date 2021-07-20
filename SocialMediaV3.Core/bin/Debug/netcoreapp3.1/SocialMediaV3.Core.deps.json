@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SocialMediaV3.Core/1.0.0": {
+        "runtime": {
+          "SocialMediaV3.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SocialMediaV3.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

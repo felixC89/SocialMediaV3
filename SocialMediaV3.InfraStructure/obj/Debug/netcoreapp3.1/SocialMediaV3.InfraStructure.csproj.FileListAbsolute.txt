@@ -1,0 +1,12 @@
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\bin\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.deps.json
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\bin\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.dll
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\bin\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.pdb
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\bin\Debug\netcoreapp3.1\SocialMediaV3.Core.dll
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\bin\Debug\netcoreapp3.1\SocialMediaV3.Core.pdb
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.csproj.AssemblyReference.cache
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.AssemblyInfoInputs.cache
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.AssemblyInfo.cs
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.csproj.CopyComplete
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.dll
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\netcoreapp3.1\SocialMediaV3.InfraStructure.pdb

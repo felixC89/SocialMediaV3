@@ -1,0 +1,9 @@
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\bin\Debug\netcoreapp3.1\SocialMediaV3.Core.deps.json
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\bin\Debug\netcoreapp3.1\SocialMediaV3.Core.dll
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\bin\Debug\netcoreapp3.1\SocialMediaV3.Core.pdb
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\obj\Debug\netcoreapp3.1\SocialMediaV3.Core.csproj.AssemblyReference.cache
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\obj\Debug\netcoreapp3.1\SocialMediaV3.Core.AssemblyInfoInputs.cache
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\obj\Debug\netcoreapp3.1\SocialMediaV3.Core.AssemblyInfo.cs
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\obj\Debug\netcoreapp3.1\SocialMediaV3.Core.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\obj\Debug\netcoreapp3.1\SocialMediaV3.Core.dll
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\obj\Debug\netcoreapp3.1\SocialMediaV3.Core.pdb
