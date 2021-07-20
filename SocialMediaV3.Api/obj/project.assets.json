@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SocialMediaV3.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SocialMediaV3.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocialMediaV3.Core.dll": {}
+        }
+      },
+      "SocialMediaV3.InfraStructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SocialMediaV3.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SocialMediaV3.InfraStructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocialMediaV3.InfraStructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SocialMediaV3.Core/1.0.0": {
+      "type": "project",
+      "path": "../SocialMediaV3.Core/SocialMediaV3.Core.csproj",
+      "msbuildProject": "../SocialMediaV3.Core/SocialMediaV3.Core.csproj"
+    },
+    "SocialMediaV3.InfraStructure/1.0.0": {
+      "type": "project",
+      "path": "../SocialMediaV3.InfraStructure/SocialMediaV3.InfraStructure.csproj",
+      "msbuildProject": "../SocialMediaV3.InfraStructure/SocialMediaV3.InfraStructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "SocialMediaV3.Core >= 1.0.0",
+      "SocialMediaV3.InfraStructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Sistemas\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Sistemas\\Documents\\Visual Studio 2019\\Projects\\SocialMediaV3\\SocialMediaV3.Api\\SocialMediaV3.Api.csproj",
+      "projectName": "SocialMediaV3.Api",
+      "projectPath": "C:\\Users\\Sistemas\\Documents\\Visual Studio 2019\\Projects\\SocialMediaV3\\SocialMediaV3.Api\\SocialMediaV3.Api.csproj",
+      "packagesPath": "C:\\Users\\Sistemas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sistemas\\Documents\\Visual Studio 2019\\Projects\\SocialMediaV3\\SocialMediaV3.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Sistemas\\Documents\\Visual Studio 2019\\Projects\\SocialMediaV3\\SocialMediaV3.Core\\SocialMediaV3.Core.csproj": {
+              "projectPath": "C:\\Users\\Sistemas\\Documents\\Visual Studio 2019\\Projects\\SocialMediaV3\\SocialMediaV3.Core\\SocialMediaV3.Core.csproj"
+            },
+            "C:\\Users\\Sistemas\\Documents\\Visual Studio 2019\\Projects\\SocialMediaV3\\SocialMediaV3.InfraStructure\\SocialMediaV3.InfraStructure.csproj": {
+              "projectPath": "C:\\Users\\Sistemas\\Documents\\Visual Studio 2019\\Projects\\SocialMediaV3\\SocialMediaV3.InfraStructure\\SocialMediaV3.InfraStructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

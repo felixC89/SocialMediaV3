@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SocialMediaV3.Core\SocialMediaV3.Core.csproj" />
+    <ProjectReference Include="..\SocialMediaV3.InfraStructure\SocialMediaV3.InfraStructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
