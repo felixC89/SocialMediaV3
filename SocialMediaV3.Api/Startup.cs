@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SocialMediaV3.Core.Interfaces;
+using SocialMediaV3.InfraStructure.Repositories;
 
 namespace SocialMediaV3.Api
 {
@@ -19,6 +21,10 @@ namespace SocialMediaV3.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            #region Inyeccion de dependencias Post Controller
+            services.AddTransient<IPostRepository, PostMongoRepository>();
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

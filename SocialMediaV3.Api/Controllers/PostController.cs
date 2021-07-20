@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SocialMediaV3.Core.Interfaces;
 using SocialMediaV3.InfraStructure.Repositories;
+using System.Threading.Tasks;
 
 namespace SocialMediaV3.Api.Controllers
 {
@@ -7,10 +9,19 @@ namespace SocialMediaV3.Api.Controllers
     [ApiController]
     public class PostController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult GetPosts() 
+        #region Se crea la variable de contexto para inyeccion de dependencias
+        private readonly IPostRepository _postRepository;
+
+        public PostController(IPostRepository postRepository) 
         {
-            var post = new PostRepository().GetPosts();
+            _postRepository = postRepository;
+        }
+        #endregion
+
+        [HttpGet]
+        public async Task<IActionResult> GetPosts() 
+        {
+            var post = await _postRepository.GetPosts();
             return Ok(post);
         }
 
