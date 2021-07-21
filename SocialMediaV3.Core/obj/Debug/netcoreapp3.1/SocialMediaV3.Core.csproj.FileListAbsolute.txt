@@ -6,4 +6,3 @@ C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMedi
 C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\obj\Debug\netcoreapp3.1\SocialMediaV3.Core.csproj.CoreCompileInputs.cache
 C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\obj\Debug\netcoreapp3.1\SocialMediaV3.Core.dll
 C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\obj\Debug\netcoreapp3.1\SocialMediaV3.Core.pdb
-C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Core\obj\Debug\netcoreapp3.1\SocialMediaV3.Core.csproj.AssemblyReference.cache
