@@ -8,6 +8,11 @@ namespace SocialMediaV3.InfraStructure.Repositories
 {
     public class PostMongoRepository : IPostRepository
     {
+        public Task<Post> GetPost(int id)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public async Task<IEnumerable<Post>> GetPosts()
         {
             var posts = Enumerable.Range(1, 10).Select(x => new Post
