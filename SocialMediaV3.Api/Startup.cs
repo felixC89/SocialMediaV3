@@ -24,6 +24,13 @@ namespace SocialMediaV3.Api
         {
             services.AddControllers();
 
+            #region Cuando ocurra una referencia circular al serializar las clases de las entidades newtonsoft ignorara estas referencias y no se serializaran
+            services.AddControllers().AddNewtonsoftJson(options=> 
+            {
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            });
+            #endregion
+
             #region Inyeccion de dependencia de la cadena de conexion al contexto de la base de datos
             services.AddDbContext<SocialMediadbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SocialMedia")));
             #endregion
