@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using SocialMediaV3.Core.Interfaces;
 using SocialMediaV3.InfraStructure.Data;
 using SocialMediaV3.InfraStructure.Repositories;
+using System;
 
 namespace SocialMediaV3.Api
 {
@@ -23,6 +25,12 @@ namespace SocialMediaV3.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            #region Se manda a pedir con automapper que se busque los assemblies en toda la solucion y registra los mappers que esten configurados
+            
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            
+            #endregion
 
             #region Cuando ocurra una referencia circular al serializar las clases de las entidades newtonsoft ignorara estas referencias y no se serializaran
             services.AddControllers().AddNewtonsoftJson(options=> 

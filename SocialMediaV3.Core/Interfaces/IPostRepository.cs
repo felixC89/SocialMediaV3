@@ -1,7 +1,6 @@
-﻿using SocialMediaV3.Core.Entities;
-using System;
+﻿using SocialMediaV3.Core.DTOs;
+using SocialMediaV3.Core.Entities;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace SocialMediaV3.Core.Interfaces

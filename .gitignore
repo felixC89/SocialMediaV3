@@ -3,14 +3,14 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-SocialMediaV3\SocialMediaV3.Api\bin\Debug\
-SocialMediaV3\SocialMediaV3.Api\obj\Debug\
+SocialMediaV3\SocialMediaV3.Api\bin\Debug\*
+SocialMediaV3\SocialMediaV3.Api\obj\Debug\*
 
-SocialMediaV3\SocialMediaV3.Core\bin\Debug\
-SocialMediaV3\SocialMediaV3.Core\obj\Debug\
+SocialMediaV3\SocialMediaV3.Core\bin\Debug\*
+SocialMediaV3\SocialMediaV3.Core\obj\Debug\*
 
-SocialMediaV3\SocialMediaV3.InfraStructure\bin\Debug\
-SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\
+SocialMediaV3\SocialMediaV3.InfraStructure\bin\Debug\*
+SocialMediaV3\SocialMediaV3.InfraStructure\obj\Debug\*
 
 # User-specific files
 *.rsuser
