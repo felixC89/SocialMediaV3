@@ -4,7 +4,6 @@ using SocialMediaV3.Core.DTOs;
 using SocialMediaV3.Core.Entities;
 using SocialMediaV3.Core.Interfaces;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace SocialMediaV3.Api.Controllers
@@ -47,6 +46,11 @@ namespace SocialMediaV3.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(PostDto postdto)
         {
+            if (!ModelState.IsValid) 
+            {
+                return BadRequest(ModelState);
+            }
+
             var post = _mapper.Map<Post>(postdto);
 
             await _postRepository.InsertPost(post);

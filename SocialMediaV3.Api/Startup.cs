@@ -36,7 +36,8 @@ namespace SocialMediaV3.Api
             services.AddControllers().AddNewtonsoftJson(options=> 
             {
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
-            });
+            })
+            .ConfigureApiBehaviorOptions(option => option.SuppressModelStateInvalidFilter=true); //Suprime la validacion del modelo(ModelState) del ApiController
             #endregion
 
             #region Inyeccion de dependencia de la cadena de conexion al contexto de la base de datos
