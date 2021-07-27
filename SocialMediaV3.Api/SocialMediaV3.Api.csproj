@@ -18,5 +18,9 @@
     <ProjectReference Include="..\SocialMediaV3.InfraStructure\SocialMediaV3.InfraStructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Assets\Documents\" />
+  </ItemGroup>
+
 
 </Project>

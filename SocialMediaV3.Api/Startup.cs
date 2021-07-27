@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SocialMediaV3.Core.Interfaces;
 using SocialMediaV3.InfraStructure.Data;
+using SocialMediaV3.InfraStructure.Filters;
 using SocialMediaV3.InfraStructure.Repositories;
 using System;
 
@@ -46,6 +47,12 @@ namespace SocialMediaV3.Api
 
             #region Inyeccion de dependencias Post Controller
             services.AddTransient<IPostRepository, PostRepository>();
+            #endregion
+
+            #region Registra el Validation Filter al contenedor de servicios
+            services.AddMvc(options => {
+                options.Filters.Add<ValidationFilter>();
+            });
             #endregion
         }
 
