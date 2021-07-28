@@ -52,3 +52,6 @@ C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMedi
 C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Api\obj\Debug\netcoreapp3.1\SocialMediaV3.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Sistemas\Documents\Visual Studio 2019\Projects\SocialMediaV3\SocialMediaV3.Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll

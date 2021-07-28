@@ -1,4 +1,5 @@
 using AutoMapper;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -30,15 +31,15 @@ namespace SocialMediaV3.Api
             #region Se manda a pedir con automapper que se busque los assemblies en toda la solucion y registra los mappers que esten configurados
             
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            
+
             #endregion
 
             #region Cuando ocurra una referencia circular al serializar las clases de las entidades newtonsoft ignorara estas referencias y no se serializaran
-            services.AddControllers().AddNewtonsoftJson(options=> 
+            services.AddControllers().AddNewtonsoftJson(options =>
             {
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
-            })
-            .ConfigureApiBehaviorOptions(option => option.SuppressModelStateInvalidFilter=true); //Suprime la validacion del modelo(ModelState) del ApiController
+            });
+            //.ConfigureApiBehaviorOptions(option => option.SuppressModelStateInvalidFilter = true); //Suprime la validacion del modelo(ModelState) del ApiController
             #endregion
 
             #region Inyeccion de dependencia de la cadena de conexion al contexto de la base de datos
@@ -52,7 +53,8 @@ namespace SocialMediaV3.Api
             #region Registra el Validation Filter al contenedor de servicios
             services.AddMvc(options => {
                 options.Filters.Add<ValidationFilter>();
-            });
+            })
+            .AddFluentValidation(options => options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));//Se registra los fluent validations en el contenedor de servicios
             #endregion
         }
 

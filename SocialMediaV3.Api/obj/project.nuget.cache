@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "C68joRv4j4cNpRPVFLhKWRLUeDgk4wR6DSGkVBigse+EptR2YzPLhXxbl6L2o25icNVF66vDqV1n3wqBow8W0w==",
+  "dgSpecHash": "RSawrK7FHVgqbs1R+wCqxAgOW0s6Vf6juj0gfeslF7Tu3YhEQr8fGLSTKncGWNyZrrcHxqMo7BCAdeGHY+ZEsA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sistemas\\Documents\\Visual Studio 2019\\Projects\\SocialMediaV3\\SocialMediaV3.Api\\SocialMediaV3.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sistemas\\.nuget\\packages\\automapper\\6.1.1\\automapper.6.1.1.nupkg.sha512",
     "C:\\Users\\Sistemas\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\3.1.0\\automapper.extensions.microsoft.dependencyinjection.3.1.0.nupkg.sha512",
+    "C:\\Users\\Sistemas\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\Sistemas\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.2\\fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
+    "C:\\Users\\Sistemas\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.2\\fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
     "C:\\Users\\Sistemas\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Sistemas\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Sistemas\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
