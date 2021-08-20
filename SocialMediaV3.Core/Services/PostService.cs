@@ -1,5 +1,6 @@
 ﻿using SocialMediaV3.Core.Entities;
 using SocialMediaV3.Core.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -9,10 +10,12 @@ namespace SocialMediaV3.Core.Services
     {
         #region Inyeccion de dependencia
         private readonly IPostRepository _postRepository;
+        private readonly IUserRepository _userRepository;
 
-        public PostService(IPostRepository postRepository)
+        public PostService(IPostRepository postRepository,IUserRepository userRepository)
         {
             _postRepository = postRepository;
+            _userRepository = userRepository;
         }
         #endregion
 
@@ -28,6 +31,12 @@ namespace SocialMediaV3.Core.Services
 
         public async Task InsertPost(Post post)
         {
+            var user = await _userRepository.GetUser(post.UserId);
+
+            if(user == null) { throw new Exception("El usuario no existe!"); }
+
+            if (post.Description.Contains("sexo")) { throw new Exception("Contenido no permitido!"); }
+
             await _postRepository.InsertPost(post);
         }
 

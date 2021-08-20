@@ -47,9 +47,10 @@ namespace SocialMediaV3.Api
             services.AddDbContext<SocialMediadbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SocialMedia")));
             #endregion
 
-            #region Inyeccion de dependencias Post Controller
+            #region Inyeccion de dependencias interfaces y repositorios
             services.AddTransient<IPostService, PostService>();
             services.AddTransient<IPostRepository, PostRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
             #endregion
 
             #region Registra el Validation Filter al contenedor de servicios
