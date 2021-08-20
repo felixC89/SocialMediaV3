@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace SocialMediaV3.Api.Response
+﻿namespace SocialMediaV3.Api.Response
 {
     public class ApiResponse<T>
     {

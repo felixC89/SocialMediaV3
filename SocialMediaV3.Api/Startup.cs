@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SocialMediaV3.Core.Interfaces;
+using SocialMediaV3.Core.Services;
 using SocialMediaV3.InfraStructure.Data;
 using SocialMediaV3.InfraStructure.Filters;
 using SocialMediaV3.InfraStructure.Repositories;
@@ -47,6 +48,7 @@ namespace SocialMediaV3.Api
             #endregion
 
             #region Inyeccion de dependencias Post Controller
+            services.AddTransient<IPostService, PostService>();
             services.AddTransient<IPostRepository, PostRepository>();
             #endregion
 

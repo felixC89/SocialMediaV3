@@ -3,7 +3,6 @@ using SocialMediaV3.Core.Entities;
 using SocialMediaV3.Core.Interfaces;
 using SocialMediaV3.InfraStructure.Data;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace SocialMediaV3.InfraStructure.Repositories
