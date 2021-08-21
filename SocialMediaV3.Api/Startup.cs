@@ -50,6 +50,7 @@ namespace SocialMediaV3.Api
             #region Inyeccion de dependencias interfaces y repositorios
             services.AddTransient<IPostService, PostService>();
             services.AddScoped(typeof(IRepository<>),typeof(BaseRepository<>));
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
             #endregion
 
             #region Registra el Validation Filter al contenedor de servicios

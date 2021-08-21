@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SocialMediaV3.Core.Entities
+﻿namespace SocialMediaV3.Core.Entities
 {
     public abstract class BaseEntity
     {

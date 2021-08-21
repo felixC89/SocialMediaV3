@@ -2,9 +2,7 @@
 using SocialMediaV3.Core.Entities;
 using SocialMediaV3.Core.Interfaces;
 using SocialMediaV3.InfraStructure.Data;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace SocialMediaV3.InfraStructure.Repositories
@@ -19,7 +17,7 @@ namespace SocialMediaV3.InfraStructure.Repositories
             _context = context;
             _entities = context.Set<T>();
         }
-       
+
         public async Task<IEnumerable<T>> GetAll()
         {
             return await _entities.ToListAsync();
