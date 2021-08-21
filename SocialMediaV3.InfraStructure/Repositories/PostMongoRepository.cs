@@ -22,7 +22,7 @@ namespace SocialMediaV3.InfraStructure.Repositories
         {
             var posts = Enumerable.Range(1, 10).Select(x => new Post
             {
-                PostId = x,
+                Id = x,
                 Description = $"Description Mongo {x}",
                 Date = System.DateTime.Now,
                 Image = $"https://misapps.com/{x}",

@@ -11,9 +11,9 @@ namespace SocialMediaV3.InfraStructure.Data.Configurations
         {
              builder.ToTable("Publicacion");
 
-                builder.HasKey(e => e.PostId);
+                builder.HasKey(e => e.Id);
 
-                builder.Property(e => e.PostId)
+                builder.Property(e => e.Id)
                     .HasColumnName("IdPublicacion");
 
                 builder.Property(e => e.UserId)

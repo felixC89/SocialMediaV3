@@ -66,7 +66,7 @@ namespace SocialMediaV3.Api.Controllers
         public async Task<IActionResult> Put(int id,PostDto postdto)
         {
             var post = _mapper.Map<Post>(postdto);
-            post.PostId = id;
+            post.Id = id;
 
             var resu = await _postService.UpdatePost(post);
 
